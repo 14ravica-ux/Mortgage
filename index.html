@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Ravi Patel - Licensed Mortgage Associate</title>
+    
+    <!-- Domain Configuration -->
+    <link rel="canonical" href="https://www.ravipatelmortgage.ca" />
+    
+    <!-- Search Engine & Social Media Meta Tags -->
+    <meta name="description" content="Apply for a mortgage or calculate payments with Ravi Patel. Professional, accurate, and trusted mortgage services in Regina. Visit ravipatelmortgage.ca." />
+    <meta property="og:title" content="Ravi Patel - Licensed Mortgage Associate" />
+    <meta property="og:description" content="Click here to calculate your mortgage payments or start your application today. License No. 514691." />
+    <meta property="og:url" content="https://www.ravipatelmortgage.ca" />
+    <meta property="og:type" content="website" />
+    <!-- Replace 'https://your-domain.com/image.jpg' with a real image URL after deployment for a picture in the link preview -->
+    <meta property="og:image" content="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" /> 
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                dark: '#0f172a', // Slate 900
+                primary: '#1e3a8a', // Blue 900
+                accent: '#d97706', // Amber 600
+                light: '#f8fafc', // Slate 50
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-accent selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>
